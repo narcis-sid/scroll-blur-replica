@@ -16,20 +16,20 @@ const HeroSection = () => {
             </div>
 
             {/* Main Heading */}
-            <h1 className="text-5xl lg:text-6xl font-bold text-emplo-dark leading-tight">
+            <h1 className="text-5xl lg:text-6xl font-bold text-emplo-dark leading-tight font-inter">
               Your AI agent for{' '}
               <span className="text-emplo-dark">recruitment & talent assessment</span>
             </h1>
 
             {/* Description */}
-            <p className="text-lg text-emplo-gray leading-relaxed max-w-lg">
+            <p className="text-lg text-emplo-gray leading-relaxed max-w-lg font-inter">
               Emplo AI is your autonomous AI agent for everything related to recruitment & talent
               assessment. Go from thinking about the job title to rolling out an offer with few clicks.
               Get detailed report on
             </p>
 
             {/* AI Recommendation */}
-            <p className="text-primary font-medium">AI recommendation</p>
+            <p className="text-primary font-medium font-inter">AI recommendation</p>
 
             {/* CTA Button */}
             <Button className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-6 text-lg font-medium rounded-lg">

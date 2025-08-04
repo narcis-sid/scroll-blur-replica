@@ -46,18 +46,18 @@ const ExploreSection = () => {
 
           {/* Right Content */}
           <div className="space-y-8">
-            <h2 className="text-4xl lg:text-5xl font-bold text-emplo-dark leading-tight">
+            <h2 className="text-4xl lg:text-5xl font-bold text-emplo-dark leading-tight font-inter">
               Explore the Future of Recruitment with Emplo AI
             </h2>
 
-            <p className="text-lg text-emplo-gray leading-relaxed">
+            <p className="text-lg text-emplo-gray leading-relaxed font-inter">
               Emplo AI transforms the way companies engage with talent, letting them streamline 
               their hiring process with unmatched efficiency. From resume parsing and candidate 
               screening to automated interviews and skill assessments, we support end-to-end 
               recruitment for HR teams, recruiters, and hiring managers.
             </p>
 
-            <Button className="bg-emplo-dark hover:bg-emplo-dark/90 text-white px-8 py-6 text-lg font-medium rounded-full">
+            <Button className="bg-emplo-dark hover:bg-emplo-dark/90 text-white px-8 py-6 text-lg font-medium rounded-full font-inter">
               Book a demo
             </Button>
           </div>
@@ -67,16 +67,16 @@ const ExploreSection = () => {
         <div className="mt-20 pt-16 border-t border-gray-200">
           <div className="grid md:grid-cols-3 gap-12 text-center">
             <div className="space-y-2">
-              <div className="text-5xl lg:text-6xl font-bold text-emplo-dark">50+</div>
-              <div className="text-emplo-gray text-lg">Trusted Companies</div>
+              <div className="text-5xl lg:text-6xl font-bold text-emplo-dark font-inter">50+</div>
+              <div className="text-emplo-gray text-lg font-inter">Trusted Companies</div>
             </div>
             <div className="space-y-2">
-              <div className="text-5xl lg:text-6xl font-bold text-emplo-dark">10K+</div>
-              <div className="text-emplo-gray text-lg">Candidates Processed</div>
+              <div className="text-5xl lg:text-6xl font-bold text-emplo-dark font-inter">10K+</div>
+              <div className="text-emplo-gray text-lg font-inter">Candidates Processed</div>
             </div>
             <div className="space-y-2">
-              <div className="text-5xl lg:text-6xl font-bold text-emplo-dark">2K+</div>
-              <div className="text-emplo-gray text-lg">HR professionals use Emplo daily</div>
+              <div className="text-5xl lg:text-6xl font-bold text-emplo-dark font-inter">2K+</div>
+              <div className="text-emplo-gray text-lg font-inter">HR professionals use Emplo daily</div>
             </div>
           </div>
         </div>

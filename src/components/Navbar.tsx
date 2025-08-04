@@ -28,15 +28,15 @@ const Navbar = () => {
             <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-sm">E</span>
             </div>
-            <span className="text-xl font-semibold text-foreground">Emplo AI</span>
+            <span className="text-xl font-semibold text-foreground font-space-grotesk">Emplo AI</span>
           </div>
 
           {/* Navigation Items */}
           <div className="flex items-center space-x-4">
-            <Button variant="ghost" className="text-emplo-gray hover:text-foreground">
+            <Button variant="ghost" className="text-emplo-gray hover:text-foreground font-space-grotesk">
               Log In
             </Button>
-            <Button className="bg-emplo-dark hover:bg-emplo-dark/90 text-white px-6 py-2 rounded-lg font-medium">
+            <Button className="bg-emplo-dark hover:bg-emplo-dark/90 text-white px-6 py-2 rounded-lg font-medium font-space-grotesk">
               Start Pilot
             </Button>
           </div>
