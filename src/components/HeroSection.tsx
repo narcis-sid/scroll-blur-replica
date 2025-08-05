@@ -3,8 +3,8 @@ import heroImage from '@/assets/hero-workspace.jpg';
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen pt-24 pb-16 px-6">
-      <div className="max-w-7xl mx-auto">
+    <section className="min-h-screen pt-24 pb-16 px-4">
+      <div className="max-w-full mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="space-y-8">
