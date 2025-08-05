@@ -4,10 +4,10 @@ const ExploreSection = () => {
   return (
     <section className="py-24 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
-        <div className="grid lg:grid-cols-2 gap-20 items-center">
+        <div className="grid lg:grid-cols-[1.2fr,0.8fr] gap-16 items-center">
           {/* Left Content - Before/After Card */}
-          <div className="relative">
-            <div className="bg-gradient-to-br from-emplo-purple to-emplo-purple-light rounded-3xl p-10 shadow-2xl">
+          <div className="relative max-w-2xl">
+            <div className="bg-gradient-to-br from-emplo-purple to-emplo-purple-light rounded-3xl p-12 shadow-2xl">
               <div className="grid grid-cols-2 gap-8">
                 {/* Before */}
                 <div className="relative">
@@ -15,7 +15,7 @@ const ExploreSection = () => {
                     <img
                       src="/lovable-uploads/206a0543-1891-4b3d-bded-7321dd79ff26.png"
                       alt="Before - Traditional recruitment"
-                      className="w-full h-52 object-cover"
+                      className="w-full h-56 object-cover"
                     />
                   </div>
                   <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2">
@@ -31,7 +31,7 @@ const ExploreSection = () => {
                     <img
                       src="/lovable-uploads/206a0543-1891-4b3d-bded-7321dd79ff26.png"
                       alt="After - AI-powered recruitment"
-                      className="w-full h-52 object-cover"
+                      className="w-full h-56 object-cover"
                     />
                   </div>
                   <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2">
@@ -45,19 +45,19 @@ const ExploreSection = () => {
           </div>
 
           {/* Right Content */}
-          <div className="space-y-10 pl-8">
-            <h2 className="text-5xl lg:text-6xl font-bold text-emplo-dark leading-tight font-inter">
+          <div className="space-y-6">
+            <h2 className="text-4xl lg:text-5xl font-bold text-emplo-dark leading-tight font-inter">
               Explore the Future of Recruitment with Emplo AI
             </h2>
 
-            <p className="text-xl text-emplo-gray leading-relaxed font-inter max-w-2xl">
+            <p className="text-lg text-emplo-gray leading-relaxed font-inter">
               Emplo AI transforms the way companies engage with talent, letting them streamline 
               their hiring process with unmatched efficiency. From resume parsing and candidate 
               screening to automated interviews and skill assessments, we support end-to-end 
               recruitment for HR teams, recruiters, and hiring managers.
             </p>
 
-            <Button className="bg-black hover:bg-gray-800 text-white px-10 py-4 text-lg font-medium rounded-full font-inter shadow-lg hover:shadow-xl transition-all duration-200">
+            <Button className="bg-black hover:bg-gray-800 text-white px-8 py-3 text-base font-medium rounded-full font-inter shadow-lg hover:shadow-xl transition-all duration-200">
               Book a demo
             </Button>
           </div>
