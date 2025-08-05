@@ -2,8 +2,8 @@ import { Button } from '@/components/ui/button';
 
 const ExploreSection = () => {
   return (
-    <section className="py-20 px-4 bg-background">
-      <div className="max-w-full mx-auto">
+    <section className="py-20 px-6 bg-background">
+      <div className="w-full">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Content - Before/After Card */}
           <div className="relative">
