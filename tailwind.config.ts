@@ -67,8 +67,9 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				emplo: {
-					purple: 'hsl(var(--emplo-purple))',
-					'purple-light': 'hsl(var(--emplo-purple-light))',
+					blue: 'hsl(var(--emplo-blue))',
+					'blue-light': 'hsl(var(--emplo-blue-light))',
+					'blue-dark': 'hsl(var(--emplo-blue-dark))',
 					dark: 'hsl(var(--emplo-dark))',
 					gray: 'hsl(var(--emplo-gray))',
 					'light-gray': 'hsl(var(--emplo-light-gray))'

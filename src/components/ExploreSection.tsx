@@ -7,7 +7,7 @@ const ExploreSection = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Content - Before/After Card */}
           <div className="relative">
-            <div className="bg-gradient-to-br from-emplo-purple to-emplo-purple-light rounded-3xl p-8 shadow-2xl">
+            <div className="bg-gradient-to-br from-emplo-blue to-emplo-blue-light rounded-3xl p-8 shadow-2xl">
               <div className="grid grid-cols-2 gap-6">
                 {/* Before */}
                 <div className="relative">
