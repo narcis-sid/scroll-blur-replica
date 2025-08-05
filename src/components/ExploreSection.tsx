@@ -57,7 +57,7 @@ const ExploreSection = () => {
               recruitment for HR teams, recruiters, and hiring managers.
             </p>
 
-            <Button className="bg-emplo-dark hover:bg-emplo-dark/90 text-white px-8 py-6 text-lg font-medium rounded-full font-inter">
+            <Button className="bg-emplo-dark hover:bg-emplo-dark/90 text-white px-8 py-6 text-sm font-light rounded-full font-space-grotesk">
               Book a demo
             </Button>
           </div>
