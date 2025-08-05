@@ -46,7 +46,7 @@ const ExploreSection = () => {
 
           {/* Right Content */}
           <div className="space-y-8">
-            <h2 className="text-4xl lg:text-5xl font-bold text-emplo-dark leading-tight font-inter">
+            <h2 className="text-4xl lg:text-5xl font-bold text-emplo-blueberry leading-tight font-inter">
               Explore the Future of Recruitment with Emplo AI
             </h2>
 
@@ -57,7 +57,7 @@ const ExploreSection = () => {
               recruitment for HR teams, recruiters, and hiring managers.
             </p>
 
-            <Button className="bg-emplo-dark hover:bg-emplo-dark/90 text-white px-8 py-6 text-sm font-light rounded-full font-space-grotesk">
+            <Button className="bg-emplo-blueberry hover:bg-emplo-blueberry/90 text-white px-8 py-6 text-sm font-light rounded-full font-space-grotesk">
               Book a demo
             </Button>
           </div>
@@ -67,15 +67,15 @@ const ExploreSection = () => {
         <div className="mt-20 pt-16 border-t border-gray-200">
           <div className="grid md:grid-cols-3 gap-12 text-center">
             <div className="space-y-2">
-              <div className="text-5xl lg:text-6xl font-bold text-emplo-dark font-inter">50+</div>
+              <div className="text-5xl lg:text-6xl font-bold text-emplo-blueberry font-inter">50+</div>
               <div className="text-emplo-gray text-lg font-inter">Trusted Companies</div>
             </div>
             <div className="space-y-2">
-              <div className="text-5xl lg:text-6xl font-bold text-emplo-dark font-inter">10K+</div>
+              <div className="text-5xl lg:text-6xl font-bold text-emplo-blueberry font-inter">10K+</div>
               <div className="text-emplo-gray text-lg font-inter">Candidates Processed</div>
             </div>
             <div className="space-y-2">
-              <div className="text-5xl lg:text-6xl font-bold text-emplo-dark font-inter">2K+</div>
+              <div className="text-5xl lg:text-6xl font-bold text-emplo-blueberry font-inter">2K+</div>
               <div className="text-emplo-gray text-lg font-inter">HR professionals use Emplo daily</div>
             </div>
           </div>

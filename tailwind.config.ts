@@ -70,6 +70,7 @@ export default {
 					blue: 'hsl(var(--emplo-blue))',
 					'blue-light': 'hsl(var(--emplo-blue-light))',
 					'blue-dark': 'hsl(var(--emplo-blue-dark))',
+					blueberry: 'hsl(var(--emplo-blueberry))',
 					dark: 'hsl(var(--emplo-dark))',
 					gray: 'hsl(var(--emplo-gray))',
 					'light-gray': 'hsl(var(--emplo-light-gray))'
